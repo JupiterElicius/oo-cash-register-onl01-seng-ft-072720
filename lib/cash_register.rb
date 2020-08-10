@@ -26,7 +26,6 @@ class  CashRegister
     new_total = @total - @total*new_disc
     @total = new_total
     "After the discount, the total comes to $#{@total.to_i}."
-    # binding.pry
   else
     "There is no discount to apply."
     end
